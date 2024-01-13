@@ -1,0 +1,115 @@
+.marsedise_details{
+    margin-bottom: 42px;
+}
+.mersedise_title{
+    margin-top: 120px;
+display: flex;
+justify-content: center;
+           color: #000;
+
+   font-family: 'Montserrat';
+   font-size: 26px;
+   font-style: bolder;
+   font-weight: 700;
+   letter-spacing: 7.8px;
+   align-items: center;
+   padding: 0px 20px;
+}
+.marsedise_content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image_mersedice{
+    max-width: 744px;
+    height: 450px;
+    width: 100%;
+}
+.low_res{
+    color: #A0A0A0;
+font-family: 'Montserrat';
+font-size: 10px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.medium_res{
+    color: #000;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.high_res{ 
+    color: #000;
+font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 300;
+}
+.mersidice_book{
+    max-width: 319px;
+                    margin-top: 252px;
+                    width: 100%;
+            height: 52px;
+            border-radius: 5px;
+            background: #F8D849;
+            color: #000;
+            
+            text-align: center;
+            font-family: 'Helvetica';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-color: #F8D849;
+            align-items: center;
+}
+.mersedise_right_site{
+    max-width: 511px;
+    width: 100%;
+    margin-left: 11px;
+}
+@media (max-width:1274px) {
+    .low_res{
+        display: none !important;
+    }
+    .medium_res{
+        display: none !important;
+    }
+    .high_res{
+        margin-top: 20px !important;
+    }
+    .mersidice_book{
+        margin-top: 0px !important;
+    }
+    .mersedice_button{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .marsedise_content {
+        margin-top: 20px;
+    }
+    .mersedise_title{
+        margin-top: 40px;
+    }
+
+}
+@media (max-width:760px) {
+.image_mersedice{
+    width: 470px;
+
+}
+.mersedise_title{
+    font-size: 20px;
+}
+}
+@media (max-width:522px) {
+    .image_mersedice{
+        width: 270px;
+        height: 250px;
+    
+    }
+    .mersedise_title{
+        font-size: 10px;
+    }
+    }

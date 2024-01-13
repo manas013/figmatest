@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Obviosa+Demo:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Now+Display:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-helvetica-now-display: "Helvetica Now Display";
+  --font-poppins: Poppins;
+  --font-obviosa-demo: "Obviosa Demo";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-3xs: 10px;
+  --font-size-7xl: 26px;
+  --font-size-xl: 20px;
+  --font-size-3xs-3: 9.3px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gold: #f8d849;
+  --color-whitesmoke: #f5f5f5;
+  --color-darkgray-100: #a0a0a0;
+  --color-darkgray-200: rgba(160, 160, 160, 0.69);
+
+  /* Border radiuses */
+  --br-17xl: 36px;
+  --br-8xs: 5px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+}

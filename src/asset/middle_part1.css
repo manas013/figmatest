@@ -1,0 +1,65 @@
+.section_middle{
+    .section_first h1{
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+                   color: #000;
+   
+           font-family: 'Montserrat';
+           font-size: 26px;
+           font-style: bolder;
+           font-weight: 700;
+           letter-spacing: 7.8px;
+           align-items: center;
+           padding: 0px 20px;
+   }
+}
+.cars_items{
+        display: flex;
+        padding: 80px 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+        .cars_image{
+                border-radius: 20px;
+                border: 1px solid rgba(160, 160, 160, 0.69);
+                padding: 106px 17px 85px 22px;
+        }
+        #cars_heading{
+                margin-top: 10px;
+                color: #000;
+
+                font-family: 'Poppins';
+                font-size: 16px;
+                font-weight: 500;
+                font-style: bold;
+        }
+       
+                .cars_book_now{
+                    max-width: 319px;
+                    margin-top: 20px;
+                    width: 100%;
+            height: 52px;
+            border-radius: 5px;
+            background: #F8D849;
+            color: #000;
+            
+            text-align: center;
+            font-family: 'Helvetica';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-color: #F8D849;
+                }
+}
+@media (max-width:576px) {
+
+ .section_first h1{
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 19px !important;
+ }
+ .cars_details{
+        margin-left: 35px;
+ }
+}

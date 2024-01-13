@@ -1,0 +1,224 @@
+.header{
+    /* height: 100vh; */
+    /* background-color: radial-gradient(50% 50%at 50% 50%, transparent, #000 94%); */
+    /* opacity: 0.6; */
+    margin: auto;
+    background-image: url('/public/rectangle-8046@2x.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-sizing: content-box;
+}
+.header_main_contant{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mainheaer_upper{
+    display: flex;
+    .header_upper{
+        display: flex;
+        justify-content: center;
+        .header_text{
+            font-family: 'Montserrat';
+            font-size: 14px;
+            color: #FFF;
+            margin: 0px 16px;
+        }
+    }
+    .left_site{
+        margin-left: 190px;
+        display: flex;  
+        justify-content: center;
+    }
+
+}
+._logo{
+    display: none;
+    margin-left: 16px;
+}
+.toggle_buttom{
+    cursor: pointer;
+    display: none;
+    margin-right: 16px;
+}
+.main_header_lower{
+    color: #FFF;
+    margin: 0px 24px;
+    
+    .hr{
+        height: 2px;
+        margin-bottom: 0px;
+       
+    }
+    .style_hr{
+        width: 56px;
+height: 9px;
+border-radius: 0px 0px 10px 10px;
+background: #F8D849;
+    }
+    .main_lower{
+        width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content_style{
+        display: flex;
+        .lower_titles{
+            margin: 0px 46px;
+        }
+        .lower_titles p{
+            color: #FFF;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 700;
+margin-left: 6px;
+margin-top: 14px;
+
+        }
+        .lower_title_style{
+           margin-top: 28px;
+           margin-left: 46px;
+           margin-right: 46px;
+            color: #FFF;
+            font-family: 'Montserrat';
+            font-size: 14px;
+            font-weight: 700;
+            margin-left: 6px;
+        }
+    }
+    }
+   
+}
+.middle_title_portion_part{
+    display: flex;
+    justify-content: center;
+
+    .Dummy{
+        color: #FFF;
+
+        font-family: 'Montserrat';
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100.5%; /* 20.1px */
+        letter-spacing: 6px;
+    }
+    .Your{
+        margin-top: 15px;
+        color: #FFF;
+
+font-family: 'Montserrat';
+font-size: 60px;
+font-style: italic;
+font-weight: 700;
+line-height: 100.5%; /* 60.3px */
+    }
+}
+.buttom{
+    display: flex;
+    justify-content: center;
+    margin-top: 155px;
+    margin-left: 16px;
+    margin-right: 16px;
+    .text_buttom{
+        max-width: 290px;
+        width: 100%;
+height: 52px;
+border-radius: 5px;
+background: #F8D849;
+color: #000;
+
+text-align: center;
+font-family: 'Helvetica';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-color: #F8D849;
+    }
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.middle_part_underline{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 46px;
+    margin-top: 211px;
+    
+}
+li{
+    list-style: none;
+}
+
+@media (max-width:992px) {
+    .mainheaer_upper{
+        display: none;
+    }
+    .toggle_buttom{
+        display: block;
+    }
+    ._logo{
+        display: block;
+    }
+    .main_header_lower{
+        display: none;
+    }
+    .Dummy{
+        font-size: 7px !important;
+    }
+    .Your{
+        font-size: 23px !important;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer{
+        display: none;
+    }
+    .text_buttom{
+        margin-bottom: 50px;
+    }
+    .left_style_text{
+        display: none;
+    }
+}
+@media (max-width:576) {
+    .mainheaer_upper{
+        display: none;
+    }
+    .toggle_buttom{
+        display: unset;
+    }
+    ._logo{
+        display: unset;
+    }
+    .main_header_lower{
+        display: none;
+    }
+    .Dummy{
+        font-size: 7px !important;
+    }
+    .Your{
+        font-size: 15px !important;
+    }
+    .footer{
+        display: none;
+    }
+    .left_style_text{
+        display: none;
+    }
+}
