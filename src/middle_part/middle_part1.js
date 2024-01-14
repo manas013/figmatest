@@ -82,7 +82,7 @@ function Middle_part1() {
         </div>
       </div>
       <div className="carousel-item">
-      <div className='cars_details'style={{marginRight:'46px',marginTop:'36px'}}>
+      <div className='cars_details'style={{marginTop:'36px'}}>
           <div className='cars_image'>
             <img src='./mercedesbenzsclasscar-1@2x.png'  style={{width: "280px",height: "149.333px"}} alt='cars'/>
             </div>
@@ -100,7 +100,7 @@ function Middle_part1() {
         </div>
       </div>
       <div class="carousel-item">
-      <div className='cars_details'style={{marginRight:'46px',marginTop:'36px'}}>
+      <div className='cars_details'style={{marginTop:'36px'}}>
           <div className='cars_image'>
             <img src='./mercedesbenzsclasscar-1@2x.png'  style={{width: "280px",height: "149.333px"}} alt='cars'/>
             </div>
