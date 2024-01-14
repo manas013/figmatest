@@ -59,7 +59,44 @@
         justify-content: center !important;
         font-size: 19px !important;
  }
- .cars_details{
+ /* .cars_details{
         margin-left: 35px;
- }
+ } */
 }
+
+.testing{
+        .cars_image{
+            border-radius: 20px;
+            border: 1px solid rgba(160, 160, 160, 0.69);
+            padding: 106px 17px 85px 22px;
+    }
+    .cars_book_now{
+        max-width: 319px;
+        margin-top: 20px;
+        width: 100%;
+    height: 52px;
+    border-radius: 5px;
+    background: #F8D849;
+    color: #000;
+    
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-color: #F8D849;
+    }
+    }
+    .testing{
+        display: none;
+    }
+    @media (max-width:752px) {
+
+        .cars_items{
+                display: none;
+        }
+        .testing{
+                display: block !important;
+        }
+    }

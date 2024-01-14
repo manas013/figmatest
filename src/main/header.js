@@ -60,7 +60,7 @@ function Header() {
   </div>
   <div className='middle_title_portion_part'>
     <div className='text_title'>
-      <div style={{padding:'0px 111px'}}>
+      <div className='content_dummy' style={{padding:'0px 111px'}}>
 <h2 className='Dummy'>THIS IS THE DUMMY CONTENT</h2>
 </div>
 <h1 className='Your'>YOUR TRAVELCOMPANION</h1>
