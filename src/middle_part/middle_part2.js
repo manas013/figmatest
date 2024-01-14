@@ -34,14 +34,18 @@ function Middle_part2() {
         </div>
         <div className='tested'>
         <div className='tested_2' style={{display:'flex' ,justifyContent:'center'}}>
-                      <div className='bmw_about' style={{marginTop:'97px', display:'flex',justifyContent:'center'}}>
+                      <div className='bmw_about' style={{marginTop:'68px', display:'flex',justifyContent:'center'}}>
             We take pride in the high level of chauffeur service provided by all of our chauffeurs and the care and respect that they take in servicing the needs of our customers.
             </div>
             <div className='bmw_about_2' style={{marginTop:'97px', display:'flex',justifyContent:'center'}}>
-            We take pride in the high level of chauffeur service provided
+            We take pride in the high level of chauffeur service provided by all of our chauffeurs and the care and respect that they take in servicing the needs of our customers.
             </div>
             <div className='bmw-stir'>
                     <img className='bmw_insite' src='rectangle-8146@2x.png' style={{ width:"336px%",height: "291px"}} alt='handle'/>
+                </div>
+                <div className='bmw_2_str'>
+                    <img className='bmw_2_insite' src='Rectangle 8146.png' style={{width:"193",height: "485px"}}/>
+
                 </div>
                 </div>
                 <div className='bmw_main_content'>

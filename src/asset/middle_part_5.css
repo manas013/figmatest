@@ -4,4 +4,10 @@
 
     padding: 10px !important;
 }
+.first_show{
+    display: none !important;
+}
+.next_hide{
+    display: block !important;
+}
    }
